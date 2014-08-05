@@ -1,4 +1,7 @@
 <?php
+
+require_once('cas_user.inc.php');
+
 /**
  * @param boolean $enforce Should login be enforced?  If FALSE, 
  * all login redirects should be handled in
