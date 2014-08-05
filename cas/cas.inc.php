@@ -66,12 +66,11 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
 
 function rpc_logout($user) {
     //logout locally
-    $auth=$this->getAuthService();
-    $auth->clearIdentity();
+    $user->destroy_session();
+    $user->unset_cookie();
     session_destroy();
     //logout of CAS
-    $CAS=$this->getCAS();
-    $CAS::client(SAML_VERSION_1_1,"castest.ucmerced.edu",443,"/cas",false);
-    $CAS::logoutWithRedirectService("http://" . $_SERVER['SERVER_NAME'] . "/");
+    phpCAS::client(SAML_VERSION_1_1,"castest.ucmerced.edu",443,"/cas",false);
+    phpCAS::logoutWithRedirectService("http://" . $_SERVER['SERVER_NAME'] . "/");
 }
 ?>
