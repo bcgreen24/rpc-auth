@@ -27,7 +27,7 @@ require_once(dirname(__FILE__) . "/../../../inc/rpc_smarty.inc.php");
  *
  * @package RPC
  */
-class Native_User extends RPC_User
+class CAS_User extends RPC_User
 {
 	const ERR_CANNOT_RESET_PASSWORD = 101;
 	const ERR_CANNOT_SEND_PASSWORD = 102;
