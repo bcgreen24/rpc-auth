@@ -67,6 +67,6 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
  */
 
 function rpc_logout($user) {
-
+    header("Location: http://castest.ucmerced.edu/cas/logout");
 }
 ?>
