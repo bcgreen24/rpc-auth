@@ -1,7 +1,5 @@
 <?php
 
-require_once('cas_user.inc.php');
-
 /**
  * @param boolean $enforce Should login be enforced?  If FALSE, 
  * all login redirects should be handled in
@@ -68,11 +66,8 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
  */
 
 function rpc_logout($user) {
-    //logout locally
-    $user->destroy_session();
-    $user->unset_cookie();
     session_destroy();
-    //logout of CAS
+    //log out of CAS
     phpCAS::client(SAML_VERSION_1_1,"castest.ucmerced.edu",443,"/cas",false);
     phpCAS::logoutWithRedirectService("http://" . $_SERVER['SERVER_NAME'] . "/");
 }

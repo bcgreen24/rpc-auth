@@ -29,17 +29,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-0.0" vertical-offset="675" max-vertical-offset="780">
+            <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-25.0" vertical-offset="25" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cas.inc.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cas.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="329" selection-end="329" vertical-scroll-proportion="-0.29166666" vertical-offset="143" max-vertical-offset="1260">
-              <folding />
+            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03963012" vertical-offset="0" max-vertical-offset="1185">
+              <folding>
+                <element signature="e#7#1293#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="native.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="native.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/native/native.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="943" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2385">
+            <state line="27" column="0" selection-start="943" selection-end="979" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="2385">
               <folding />
             </state>
           </provider>
@@ -109,8 +111,8 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/../rs2/plugins/Authentication/CAS_UCM/CAS_UCM.php" />
         <option value="$PROJECT_DIR$/cas/cas-auth.php" />
-        <option value="$PROJECT_DIR$/cas/cas.inc.php" />
         <option value="$PROJECT_DIR$/cas/cas_user.inc.php" />
+        <option value="$PROJECT_DIR$/cas/cas.inc.php" />
       </list>
     </option>
   </component>
@@ -304,7 +306,9 @@
     <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="1" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="870">
-          <folding />
+          <folding>
+            <element signature="e#7#1293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -334,16 +338,6 @@
             <marker date="1407257927023" expanded="true" signature="7966:8042" placeholder="UPDATE nativ..." />
             <marker date="1407257927023" expanded="true" signature="12159:12230" placeholder="UPDATE users..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="780">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,17 +385,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
+    <entry file="file://$PROJECT_DIR$/native/native.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="329" selection-end="329" vertical-scroll-proportion="-0.29166666" vertical-offset="143" max-vertical-offset="1260">
+        <state line="27" column="0" selection-start="943" selection-end="979" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="2385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/native/native.inc.php">
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="943" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2385">
+        <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-25.0" vertical-offset="25" max-vertical-offset="780">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03963012" vertical-offset="0" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#7#1293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
