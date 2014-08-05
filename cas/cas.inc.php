@@ -52,7 +52,7 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
     }
 
     $isAuth = phpCAS::isSessionAuthenticated();
-    $username = phpCAS::getUser() . "@ucmerced.edu";
+    $username = phpCAS::getUser();
     return "OK | $username";
 }
 
