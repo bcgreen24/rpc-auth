@@ -31,7 +31,7 @@
  **/
 
 function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
-    include_once('./phpCAS-1.3.3/CAS.php');
+    include_once('/var/www/html/rpc/plugins/auth/phpCAS-1.3.3/CAS.php');
     phpCAS::setDebug('/tmp/casdebug');
     phpCAS::client('S1', 'cas.ucmerced.edu', 443, '/cas');
     phpCAS::setNoCasServerValidation();
