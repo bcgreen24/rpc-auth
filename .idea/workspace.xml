@@ -38,7 +38,7 @@
       <file leaf-file-name="cas.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="42" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.6235139" vertical-offset="98" max-vertical-offset="870">
+            <state line="40" column="23" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.6235139" vertical-offset="128" max-vertical-offset="900">
               <folding>
                 <element signature="e#6#1292#0" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file leaf-file-name="CAS_UCM.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rs2/plugins/Authentication/CAS_UCM/CAS_UCM.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="660">
+            <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -356,14 +356,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../rs2/plugins/Authentication/CAS_UCM/CAS_UCM.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="660">
+        <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="42" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.6235139" vertical-offset="98" max-vertical-offset="870">
+        <state line="40" column="23" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.6235139" vertical-offset="128" max-vertical-offset="900">
           <folding>
             <element signature="e#6#1292#0" expanded="true" />
           </folding>

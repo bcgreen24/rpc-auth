@@ -37,6 +37,8 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
     phpCAS::setNoCasServerValidation();
     phpCAS::forceAuthentication();
     $attributes = phpCAS::getAttributes();
+
+    print($attributes);
 }
 
 /**
