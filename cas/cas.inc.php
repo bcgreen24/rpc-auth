@@ -32,13 +32,30 @@
 
 function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
     include_once('/var/www/html/rpc/plugins/auth/phpCAS-1.3.3/CAS.php');
+    $CAS_HOSTNAME = 'castest.ucmerced.edu';
+    $CAS_PORT = 443;
+    $CAS_URL = '/cas';
+    $CAS_VERSION = 'S1';
     phpCAS::setDebug('/tmp/casdebug');
-    phpCAS::client('S1', 'cas.ucmerced.edu', 443, '/cas');
+    phpCAS::client($CAS_VERSION, $CAS_HOSTNAME, $CAS_PORT, $CAS_URL, false);
     phpCAS::setNoCasServerValidation();
-    phpCAS::forceAuthentication();
-    $attributes = phpCAS::getAttributes();
-    print("<pre>" . print_r($attributes, 1) . "</pre>");
-    return "OK | bgreen4";
+
+    try
+    {
+        phpCAS::forceAuthentication();
+
+    } catch (Exception $ex)
+    {
+        Log::Error('CAS exception: %s', $ex);
+        return "FAIL | NULL";
+    }
+
+    $isAuth = phpCAS::isSessionAuthenticated();
+    Log::Debug('CAS is auth ok: %s', $isAuth);
+    $username = phpCAS::getUser();
+
+    print("<pre>" . print_r($username, 1) . "</pre>");
+    return "OK | $username";
 }
 
 /**

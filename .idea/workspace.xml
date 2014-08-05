@@ -29,7 +29,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="780">
+            <state line="45" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-0.0" vertical-offset="675" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -38,19 +38,10 @@
       <file leaf-file-name="cas.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="56" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.6036988" vertical-offset="128" max-vertical-offset="900">
+            <state line="49" column="27" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.44517833" vertical-offset="398" max-vertical-offset="1155">
               <folding>
                 <element signature="e#6#1292#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CAS_UCM.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rs2/plugins/Authentication/CAS_UCM/CAS_UCM.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rs2/plugins/Authentication/CAS/CAS.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -356,14 +347,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../rs2/plugins/Authentication/CAS_UCM/CAS_UCM.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
+        <state line="13" column="50" selection-start="482" selection-end="482" vertical-scroll-proportion="0.25759578" vertical-offset="0" max-vertical-offset="757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rs2/plugins/Authentication/CAS/CAS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="38" selection-start="2162" selection-end="2283" vertical-scroll-proportion="-0.30779392" vertical-offset="1268" max-vertical-offset="2025">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="56" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.6036988" vertical-offset="128" max-vertical-offset="900">
+        <state line="49" column="27" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.44517833" vertical-offset="398" max-vertical-offset="1155">
           <folding>
             <element signature="e#6#1292#0" expanded="true" />
           </folding>
