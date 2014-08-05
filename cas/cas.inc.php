@@ -38,7 +38,7 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
     phpCAS::forceAuthentication();
     $attributes = phpCAS::getAttributes();
 
-    print($attributes);
+    print_r($attributes);
 }
 
 /**
