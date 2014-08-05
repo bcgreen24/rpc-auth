@@ -68,7 +68,6 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
 function rpc_logout($user) {
     session_destroy();
     //log out of CAS
-    phpCAS::client(SAML_VERSION_1_1,"castest.ucmerced.edu",443,"/cas",false);
     phpCAS::logoutWithRedirectService("http://" . $_SERVER['SERVER_NAME'] . "/");
 }
 ?>

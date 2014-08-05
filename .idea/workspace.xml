@@ -38,7 +38,7 @@
       <file leaf-file-name="cas.inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03963012" vertical-offset="0" max-vertical-offset="1185">
+            <state line="70" column="0" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.84147954" vertical-offset="413" max-vertical-offset="1170">
               <folding>
                 <element signature="e#7#1293#0" expanded="true" />
               </folding>
@@ -404,7 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cas/cas.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03963012" vertical-offset="0" max-vertical-offset="1185">
+        <state line="70" column="0" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.84147954" vertical-offset="413" max-vertical-offset="1170">
           <folding>
             <element signature="e#7#1293#0" expanded="true" />
           </folding>
