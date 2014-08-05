@@ -46,12 +46,12 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
 
     } catch (Exception $ex)
     {
-        print('CAS exception: ' . $ex);
+        print('CAS exception: ' . $ex . "\n");
+        print('Please contact the IT Help Desk.');
         return "FAIL | NULL";
     }
 
     $isAuth = phpCAS::isSessionAuthenticated();
-    print('CAS is auth ok: ' . $isAuth);
     $username = phpCAS::getUser() . "@ucmerced.edu";
     return "OK | $username";
 }
@@ -65,6 +65,13 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
  */
 
 function rpc_logout($user) {
-    header("Location: http://castest.ucmerced.edu/cas/logout");
+    //logout locally
+    $auth=$this->getAuthService();
+    $auth->clearIdentity();
+    session_destroy();
+    //logout of CAS
+    $CAS=$this->getCAS();
+    $CAS::client(SAML_VERSION_1_1,"castest.ucmerced.edu",443,"/cas",false);
+    $CAS::logoutWithRedirectService("http://" . $_SERVER['SERVER_NAME'] . "/");
 }
 ?>
