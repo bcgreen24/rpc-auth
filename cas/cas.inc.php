@@ -46,12 +46,12 @@ function rpc_authenticate($enforce=TRUE, $config=NULL, $db=NULL) {
 
     } catch (Exception $ex)
     {
-        Log::Error('CAS exception: %s', $ex);
+        print('CAS exception: %s', $ex);
         return "FAIL | NULL";
     }
 
     $isAuth = phpCAS::isSessionAuthenticated();
-    Log::Debug('CAS is auth ok: %s', $isAuth);
+    print('CAS is auth ok: %s', $isAuth);
     $username = phpCAS::getUser();
 
     print("<pre>" . print_r($username, 1) . "</pre>");
